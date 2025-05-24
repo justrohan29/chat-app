@@ -10,7 +10,7 @@ const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
 const admin = require("firebase-admin");
-const serviceAccount = require("./firebase-key.json");
+
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
