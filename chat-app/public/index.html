@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>potatochat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Join Modal -->
+  <div class="modal" id="joinModal">
+    <div class="modal-content">
+      <h2>wlcm bck</h2>
+      <input type="text" id="usernameInput" placeholder="Enter username" autocomplete="off" />
+      <input type="password" id="roomKeyInput" placeholder="Enter room key" autocomplete="off" />
+      <button id="joinBtn">join room</button>
+      <p class="error-message" id="joinError" style="color: #e63946; display:none;"></p>
+    </div>
+  </div>
+
+  <!-- Chat Wrapper -->
+  <div class="chat-wrapper hidden" id="chatWrapper">
+    <header class="chat-header">falafel</header>
+    <main class="chat-box" id="chatBox"></main>
+    <form class="chat-input" id="chatForm">
+      <input type="text" id="messageInput" autocomplete="off" placeholder="Type a message..." />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
