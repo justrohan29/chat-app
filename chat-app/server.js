@@ -1,3 +1,11 @@
+const admin = require("firebase-admin");
+
+const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+});
+
 const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
