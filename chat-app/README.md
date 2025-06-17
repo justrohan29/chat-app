@@ -13,7 +13,6 @@ A lightweight real-time chat application built using **Express**, **Socket.IO**,
 - 💬 Real-time messaging with WebSocket (Socket.IO)
 - 🧠 Chat history maintained per room (in-memory)
 - 🎨 Responsive, mobile-friendly UI
-- 🪄 Image support (optional, base64)
 - 🌐 Easily deployable on Render or similar platforms
 
 ---
