@@ -1,4 +1,4 @@
-# 🥔 Chat App - Real-time Messaging Web App
+# 🥔 Potato Chat - Real-time Messaging Web App
 
 A lightweight real-time chat application built using **Express**, **Socket.IO**, and optionally **Firebase**. Users can join chat rooms using a room key and chat instantly with others.
 
